@@ -1,6 +1,7 @@
+// adding event listeners to the button elements 
 document.getElementById("btn"). addEventListener("click", getFilms)
 document.getElementById("btn2"). addEventListener("click", buyTicket)
-
+// call back function to be executed after clicking on the first button (btn) 
 function getFilms() {
     let baseUrl = "./db.json"
     fetch(baseUrl)
@@ -21,7 +22,7 @@ function getFilms() {
         })
         document.getElementById('output').innerHTML = output; 
     })
-
+// call back function to be executed onces button 2 (btn2) is clicked 
 }
 
 function buyTicket() {
