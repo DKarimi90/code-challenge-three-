@@ -1,4 +1,4 @@
-# Wk 2 CODE CHALLENGE 
+# Wk 3 CODE CHALLENGE 
 ## Goals 
 - Implementing a `mini` web application using JavaScript <br>
 - Assessing the progress of coding skills (DOM manipulation, Event listeners & Server communication) <br>
